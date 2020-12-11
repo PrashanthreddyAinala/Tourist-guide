@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  background-color: rgb(176, 218, 176);
+}
+
+h1 {
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+  display: block;
+  max-width: 900px;
+  margin: auto;
+}
+
+#states {
+  list-style: none;
+  max-width: 200px;
+  display: block;
+  margin: auto;
+  text-align: left;
+}
+
+#states li {
+  /* display: inline; */
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+}
+
+h3 {
+  color: green;
+  margin-top: 2.5rem;
+}
+
+#places {
+  list-style: none;
+  max-width: 350px;
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+#places li {
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  text-align: left;
+}
